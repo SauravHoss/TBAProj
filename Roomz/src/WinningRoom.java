@@ -16,14 +16,14 @@ public class WinningRoom extends Room
 		x.setyLoc(this.yLoc);
 		
 		System.out.println("\nI commend you on making it here. You must answer one final question.\n");
-		System.out.println("Do you like " + getrando() + "?" +"\n\n\n\n\n");
+		System.out.println("Do you like " + getrando() + "? (Yes or No)" +"\n\n\n\n\n");
 		
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		String hmm = in.nextLine();
 		if(hmm.equalsIgnoreCase("Yes"))
 		{
-			System.out.print("Clearly you are worthy. *you have become sentient* (^//U//^)\n" );
+			System.out.print("\nClearly you are worthy. *you have become sentient* (^//U//^)\n" );
 			Runner.gameOff();
 		}
 		else
