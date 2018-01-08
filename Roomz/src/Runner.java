@@ -8,15 +8,16 @@ public class Runner
 	public static void main(String[] args)
 	{
 
-		System.out.println("					   SQUARE ENIX \n" 
-							+ "\n		 			    PRESENTS \n" 
-							+ "\n			   An original by Daniel Li and Saurav Hossain.\n\n\n"
+		System.out.println("					  SQUARE ENIX \n" 
+				+ "\n		 			    PRESENTS \n" 
+				+ "\n			   An original by Daniel Li and Saurav Hossain.\n\n\n"
 
-							+ "\n			                The Smarty Pants Game\n\n\n"
-							+ "You've wandered into the wrong place traveler. The only thing you know here is where you died last \nand where you are currently (both marked with an 'o', so conveniently)."
-							+ " Sometimes dying is good. \nSometimes it's not. Figure it out for yourself, what am I your mommy?."
-							+ " Welcome to the testing grounds. \n\n	        		            Good Luck. "
-						  );
+				+ "\n			             The Smarty Pants Game\n\n\n"
+				+ "You've wandered into the wrong place traveler. The only thing you know here is where you died last and where\nyou are currently (both marked with an 'o', conveniently, so make sure to keep track of which one is you)."
+				+ " \nSometimes dying is good. Sometimes it's not. Figure it out for yourself, what am I your mommy?."
+				+"\n\nPS: Teleporting = Dying (we just are kind enough to not take a life away and dispose of you neatly)."
+				+ " \n\n				   Welcome to the testing grounds. \n\n	        		            Good Luck. "
+			  );
 		
 		Room[][] building = new Room[11][11];
 		
